@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --color-red:#DD7E92;
+    --color-gray: #F0F0F0;
+    --color-white: #fff;
+    --color-green:#38AF90;
+    --color-black-gray: #383838;
+}
+
+*{
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset; 
+}
+
+header{
+    background-color: var(--color-green);
+    height: 90px;
+    width: 100% ; 
+}
+
+header ul {
+    color: var(--color-white);    
+}
+
+.hed{
+    display: flex;
+    justify-content: flex-start;
+ 
+}
+
+.hed h1{
+    color: var(--color-white);
+    font-size: 24px;
+   justify-items: end;
+    
+  
+   
+}  
+
+.news-new {
+    background-color: var(--color-gray);
+    border-radius: 12px 12px 12px 12px;
+}
+
+.news-new h2{
+    display:flex ;
+    justify-content: center;
+    color: var(--color-black-gray);
+}
+
+.news-new h3 {
+     color:var(--color-green) ;
+}
+
+.news-new h4 {
+    color:var(--color-black-gray) ;
+}
+
+.news-new h5 {
+    color:var(--color-green) ;   
+}
+
+#more{
+    color: var(--color-red);
+}
+
+#load{  
+    display: flex;  
+    justify-content: space-around;
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.section-games{
+    display: flex;  
+    justify-content: space-around;
+    background-color: var(--color-gray);
+}
+
+#h2-jogos{
+    display: flex;
+    justify-content: center;
+    color: var( --color-green);
+    background-color: var(--color-gray);
+    
+}
+
+.games-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.games-card-description{
+background-color: var(--color-white);
+
+}
